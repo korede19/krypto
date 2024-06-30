@@ -1,0 +1,58 @@
+.testimonialHead {
+  width: 341px;
+  margin: auto;
+}
+
+.testimonialHead h4 {
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  letter-spacing: 0.14em;
+  text-align: center;
+}
+
+.testimonialHead h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.92px;
+  text-align: center;
+}
+
+.testmony {
+  background-color: #13133a;
+  border-radius: 16px;
+  margin-top: 33px;
+  margin-bottom: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 239px;
+  padding: 0 38px 38px 38px;
+}
+
+.testmony img {
+  background-color: transparent;
+  position: relative;
+  top: -50px;
+}
+
+.testmony h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: center;
+  background-color: #13133a;
+}
+
+.testmony p {
+  font-family: "outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  text-align: center;
+  background-color: #13133a;
+  padding-top: 15px;
+}

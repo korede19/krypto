@@ -7,7 +7,10 @@ import Featured from "../../components/featured/featured";
 import analyticImg from "../../assets/analyticone.png";
 import image2 from "../../assets/analytic2.png";
 import Analytics from "../../components/analytics/analytics";
-import { AnalyticsText } from "../../utils/data";
+import { AnalyticsText, Testimonials } from "../../utils/data";
+import Testimonialstext from "../../components/testimonials/testimonials";
+import Advert from "../../components/advert/advert";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
   return (
@@ -52,6 +55,26 @@ const Home = () => {
           <img src={image2} alt="image" />
         </div>
       </div>
+      <div className="containerTestimony">
+        <div className="testimonialHead">
+          <h4>TESTIMONIES</h4>
+          <h1>Read What Others Have To Say</h1>
+        </div>
+        <div className="testContain">
+          {Testimonials?.map((item, index) => {
+            return (
+              <Testimonialstext
+                image={item.image}
+                title={item.title}
+                text={item.text}
+                key={index}
+              />
+            );
+          })}
+        </div>
+      </div>
+      <Advert />
+      <Footer />
     </>
   );
 };

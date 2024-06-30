@@ -1,0 +1,47 @@
+.adervtContain {
+  margin: 0px 150px 117px 150px;
+  background: linear-gradient(277.4deg, #abd9d9 -26.77%, #1c1955 112.51%);
+  border-radius: 25px;
+  padding: 50px;
+}
+
+.adervtContain h3 {
+  font-family: "Outfit", sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 34.02px;
+  text-align: center;
+  background: transparent;
+  color: #070707;
+}
+
+.adervtContain h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.48px;
+  text-align: center;
+  width: 376px;
+  margin: auto;
+  background: transparent;
+}
+
+.advertBtn {
+  background-color: transparent;
+  width: 265px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.advertBtn button {
+  width: 265px;
+  border-radius: 38px;
+  padding: 23px 48px;
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34.02px;
+  letter-spacing: -0.02em;
+  border: 0px;
+  cursor: pointer;
+}

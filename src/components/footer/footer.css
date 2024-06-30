@@ -1,0 +1,75 @@
+.footerContain {
+  padding: 0px 150px 80px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.links h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.links p {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.newsletter h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.newsInput {
+  display: flex;
+}
+
+.newsletter input {
+  background-color: #13133a;
+  width: 300px;
+  height: 20px;
+  border-radius: 32px;
+  padding: 10px 39px 10px 39px;
+  border: 0px;
+  outline: none;
+}
+
+.newsletter button {
+  padding: 10px 39px 10px 39px;
+  border-radius: 38px;
+  background-color: #8d8dda;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 11.72px;
+  text-align: center;
+  border: 0px;
+  position: relative;
+  left: -40px;
+  cursor: pointer;
+}
+
+.footline {
+  width: 100%;
+  height: 15px;
+  background: linear-gradient(277.4deg, #abd9d9 -26.77%, #1c1955 112.51%);
+}

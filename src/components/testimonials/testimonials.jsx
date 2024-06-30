@@ -1,11 +1,13 @@
 import React from "react";
+import "./testimonials.css";
 
-const Testimonials = () => {
+const Testimonials = ({ image, title, text }) => {
   return (
     <>
-      <div className="testimonialHead">
-        <h4>TESTIMONIES</h4>
-        <h1>Read What Others Have To Say</h1>
+      <div className="testmony">
+        <img src={image} alt="img" />
+        <h1>{title}</h1>
+        <p>{text}</p>
       </div>
     </>
   );
