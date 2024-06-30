@@ -15,3 +15,10 @@ const App = () => {
 };
 
 export default App;
+{
+  build: {
+    rollupOptions: {
+      external: ["react-router-dom"];
+    }
+  }
+}
