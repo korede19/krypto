@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.heroContain {
+  padding: 0px 150px 0px 150px;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+  top: -200px;
+  background-color: transparent;
+}
+
+.heroTexts h1 {
+  width: 477px;
+  font-family: "Outfit", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 88.2px;
+  text-align: left;
+}
+
+.heroTexts p {
+  padding-top: 15px;
+  width: 464px;
+  font-family: "outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+}
+
+.heroBtn {
+  display: flex;
+  gap: 15px;
+  padding-top: 25px;
+}
+
+.btnOne {
+  width: 255px;
+  border: 0px;
+  border-radius: 38px;
+  padding: 25px 61px;
+  background-color: #8d8dda;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  letter-spacing: 0.14em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btnTwo {
+  width: 255px;
+  border: 1px solid #ffffff;
+  border-radius: 38px;
+  padding: 25px 61px;
+  background-color: transparent;
+  font-family: Outfit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.24px;
+  letter-spacing: 0.14em;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.heroImage img {
+  width: 600px;
+}

@@ -1,0 +1,26 @@
+.featContain {
+  padding: 0px 150px 0px 150px;
+}
+
+.featHead h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.featlogo {
+  background: #252546;
+  display: flex;
+  padding: 42px 80px;
+  gap: 76px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.featlogo img {
+  background-color: transparent;
+}
