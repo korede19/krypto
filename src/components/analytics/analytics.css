@@ -43,3 +43,48 @@
   color: #ffffff;
   cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+  .analyticsContain {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+  }
+  .analyticimage img {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .analyticsTexts {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .analyticsTexts h1 {
+    width: unset;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .analyticsTexts p {
+    width: unset;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .analyticBtn button {
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 60px;
+  }
+
+  .analyticsContain2 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+}

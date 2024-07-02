@@ -38,3 +38,56 @@
   background: transparent;
   cursor: pointer;
 }
+
+.harburgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .harburgerMenu {
+    display: block;
+    background-color: transparent;
+  }
+  .harburgerMenu img {
+    background-color: transparent;
+  }
+  .headContain {
+    padding: 0px;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: unset;
+  }
+
+  .navlinks {
+    flex-direction: column;
+    gap: 16px;
+    align-items: unset;
+    padding-left: 16px;
+    background-color: transparent;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .headContain .navlinks {
+    position: absolute;
+    top: -500px;
+    width: 100%;
+    transition: 1s all ease;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #252546;
+  }
+
+  .headMobile .navlinks {
+    top: 70px;
+    transition: 1s all ease;
+  }
+}

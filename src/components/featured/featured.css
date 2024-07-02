@@ -24,3 +24,19 @@
 .featlogo img {
   background-color: transparent;
 }
+
+@media screen and (max-width: 500px) {
+  .featContain {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .featlogo {
+    gap: 10px;
+    padding: 30px 10px 30px 10px;
+  }
+  .featlogo img {
+    width: 20%;
+  }
+}
